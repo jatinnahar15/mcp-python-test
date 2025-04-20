@@ -5,16 +5,13 @@
 
 3. Create a GitHub Personal Access Token with repo scope
 
-4. Create mcp server file.
+4. Create mcp server file. [mcp_github_server.py]
 
-How to Run It
-Save the code as mcp_github_server.py
+5. Set your GitHub token securely (in terminal):
+   set GITHUB_TOKEN=ghp_YourTokenHere  # on Windows
 
-Set your GitHub token securely (in terminal):
-set GITHUB_TOKEN=ghp_YourTokenHere  # on Windows
-
-Run it:
-python mcp_github_server.py
+6. Run it:
+    python mcp_github_server.py
 
 How to Use It
 Send a POST request to http://localhost:5001/command with JSON like:
