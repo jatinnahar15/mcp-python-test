@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Load GitHub token from environment or set manually
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "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")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "your-github-token")
 
 GITHUB_API_URL = "https://api.github.com"
 
