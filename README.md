@@ -20,6 +20,7 @@
 
       Send a POST request to http://localhost:5001/command with JSON like:
 
+      BODY:
       {
         "name": "create-repo",
         "input": {
