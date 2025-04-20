@@ -13,17 +13,17 @@
 6. Run it:
     python mcp_github_server.py
 
-How to Use It
+7. How to Send Post Request to Mcp Server,
 
-Send a POST request to http://localhost:5001/command with JSON like:
+      Send a POST request to http://localhost:5001/command with JSON like:
 
-{
-  "name": "create-repo",
-  "input": {
-    "repo_name": "mcp-python-test",
-    "private": true,
-    "description": "Repository created via custom MCP Python server"
-  }
-}
+      {
+        "name": "create-repo",
+        "input": {
+          "repo_name": "mcp-python-test",
+          "private": true,
+          "description": "Repository created via custom MCP Python server"
+        }
+      }
 
 
