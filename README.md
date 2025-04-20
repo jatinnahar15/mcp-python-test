@@ -13,7 +13,10 @@
 6. Run it:
     python mcp_github_server.py
 
-7. How to Send Post Request to Mcp Server,
+   ![image](https://github.com/user-attachments/assets/59d7b58a-69bd-4ee5-b782-e39457ffb6bb)
+
+
+8. How to Send Post Request to Mcp Server,
 
       Send a POST request to http://localhost:5001/command with JSON like:
 
